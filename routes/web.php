@@ -32,6 +32,14 @@ Route::get('/sort-products', function () {
             'sales_count' => 1048,
             'views_count' => 20123,
         ],
+        [
+            'id' => 4,
+            'name' => 'Wow Detergent',
+            'price' => 11.03,
+            'created' => '2014-02-08',
+            'sales_count' => 3050,
+            'views_count' => 21983,
+        ],
     ];
 
     $catalog = new Catalog($products);
